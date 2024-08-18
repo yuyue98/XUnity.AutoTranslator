@@ -22,23 +22,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugin.IPA", "src\XUnity.AutoTranslator.Plugin.IPA\XUnity.AutoTranslator.Plugin.IPA.csproj", "{C749698C-9E49-4CC3-8B45-62AE3AD0C938}"
 	ProjectSection(ProjectDependencies) = postProject
-		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 		{1C574D77-FCC8-4249-8890-0B00EF092705} = {1C574D77-FCC8-4249-8890-0B00EF092705}
+		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Patcher", "src\XUnity.AutoTranslator.Patcher\XUnity.AutoTranslator.Patcher.csproj", "{0A2A6B66-91D4-4A4E-AC77-80C6DD748FCD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Setup", "src\XUnity.AutoTranslator.Setup\XUnity.AutoTranslator.Setup.csproj", "{86BF1F46-44C1-4301-8314-6EC32F74575F}"
 	ProjectSection(ProjectDependencies) = postProject
-		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 		{1C574D77-FCC8-4249-8890-0B00EF092705} = {1C574D77-FCC8-4249-8890-0B00EF092705}
+		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 		{B3A3D3E7-A8F1-4110-8151-E674947CB8FD} = {B3A3D3E7-A8F1-4110-8151-E674947CB8FD}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugin.UnityInjector", "src\XUnity.AutoTranslator.Plugin.UnityInjector\XUnity.AutoTranslator.Plugin.UnityInjector.csproj", "{12F1D16B-B8E1-4A9D-B65A-044650F15440}"
 	ProjectSection(ProjectDependencies) = postProject
-		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 		{1C574D77-FCC8-4249-8890-0B00EF092705} = {1C574D77-FCC8-4249-8890-0B00EF092705}
+		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseTranslator", "src\Translators\ReverseTranslator\ReverseTranslator.csproj", "{7493BA4A-C688-4103-B161-7E578FBB6C0E}"
@@ -67,10 +67,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Setup.Build", "src\XUnity.AutoTranslator.Setup.Build\XUnity.AutoTranslator.Setup.Build.csproj", "{848D741E-A4F2-4680-AFD2-74C8723CE3C4}"
 	ProjectSection(ProjectDependencies) = postProject
-		{D70C425F-F0C9-45BB-835D-16E827AC2939} = {D70C425F-F0C9-45BB-835D-16E827AC2939}
-		{95D6B899-8772-4A7A-AD95-ACDF18FD4D83} = {95D6B899-8772-4A7A-AD95-ACDF18FD4D83}
 		{94BD50EF-2E18-4A86-8582-35E75453F022} = {94BD50EF-2E18-4A86-8582-35E75453F022}
+		{95D6B899-8772-4A7A-AD95-ACDF18FD4D83} = {95D6B899-8772-4A7A-AD95-ACDF18FD4D83}
 		{AD0C7EF2-D394-43B5-9CCE-FA8A0A820076} = {AD0C7EF2-D394-43B5-9CCE-FA8A0A820076}
+		{D70C425F-F0C9-45BB-835D-16E827AC2939} = {D70C425F-F0C9-45BB-835D-16E827AC2939}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Setup.Build-x86", "src\XUnity.AutoTranslator.Setup.Build-x86\XUnity.AutoTranslator.Setup.Build-x86.csproj", "{1C574D77-FCC8-4249-8890-0B00EF092705}"
@@ -90,9 +90,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.RuntimeHooker.Benchm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugin.BepInEx", "src\XUnity.AutoTranslator.Plugin.BepInEx\XUnity.AutoTranslator.Plugin.BepInEx.csproj", "{ADCCF172-7D31-42C6-B9D4-1779EAC8B403}"
 	ProjectSection(ProjectDependencies) = postProject
-		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
-		{526D9044-1C4D-4A06-BAEB-0EB135F04F6B} = {526D9044-1C4D-4A06-BAEB-0EB135F04F6B}
 		{1C574D77-FCC8-4249-8890-0B00EF092705} = {1C574D77-FCC8-4249-8890-0B00EF092705}
+		{526D9044-1C4D-4A06-BAEB-0EB135F04F6B} = {526D9044-1C4D-4A06-BAEB-0EB135F04F6B}
+		{848D741E-A4F2-4680-AFD2-74C8723CE3C4} = {848D741E-A4F2-4680-AFD2-74C8723CE3C4}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnity.AutoTranslator.Plugin.Core.Tests", "test\XUnity.AutoTranslator.Plugin.Core.Tests\XUnity.AutoTranslator.Plugin.Core.Tests.csproj", "{4E1A0EB3-563A-419A-BE9D-5870A1A44CAD}"
@@ -144,6 +144,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LingoCloudTranslate", "src\Translators\LingoCloudTranslate\LingoCloudTranslate.csproj", "{A5FFBACF-F165-4F22-A78C-A7A508E02AF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakuraTranslator", "src\Translators\SakuraTranslator\SakuraTranslator.csproj", "{25B64EAB-5D7C-443A-AB10-DC0BE86CB035}"
+	ProjectSection(ProjectDependencies) = postProject
+		{718A3B1D-A5E5-4223-AD53-45C60C874150} = {718A3B1D-A5E5-4223-AD53-45C60C874150}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
